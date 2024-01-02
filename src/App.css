@@ -1,0 +1,514 @@
+.navbar-page{
+  color: green;
+  padding-top: 5px;
+  padding-right: 10px;
+}
+
+.collapse{
+  visibility: visible;
+}
+
+/* Custom CSS to move the list items to the right side */
+.navbar-nav.ml-auto .list {
+  margin-left: 20px; /* Adjust the margin as needed for spacing */
+}
+
+.nav-links{
+  font-weight: bold;
+  color: green;
+  padding-inline: 10px;
+  text-decoration: none;
+  
+}
+/* testimonials */
+.carousel-item{
+  padding:7% 15% ;
+}
+#testimonials{
+  position: relative;
+  padding:3% 7%;
+  text-align: center;
+  background-color:rgba(255, 255, 255, 0.926) ;
+  color: rgb(0, 0, 0);
+  
+}
+
+.testimonial-img{
+  width: 15%;
+  border-radius:100%;
+  margin-top: 20px;
+}
+
+#press
+{
+  text-align: center;
+  background-color:rgba(255, 255, 255, 0.926) ;
+  color: rgb(0, 0, 0);
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+  padding: 7% 1;
+}
+
+/* Custom CSS to change button color and text color */
+.btn.btn-black {
+  background-color: rgb(255, 255, 255); /* Button background color */
+  color: rgb(0, 0, 0); /* Button text color */
+  border-color: black; /* Button border color */
+}
+
+.btn.btn-black.active {
+  background-color: rgb(0, 0, 0); /* Active button background color */
+  color: white; /* Active button text color */
+  border-color: black; /* Active button border color */
+}
+.btn.btn-black:hover {
+  background-color: green;
+}
+
+/* Custom CSS to style the product section with a fixed size and no left or right padding */
+.product-card {
+  background-color: rgb(255, 255, 255);
+  border: 1px solid black;
+  color: black;
+  height: 100%; /* Set height to 100% to take full height of the parent container */
+}
+
+.product-card .card-title {
+  color: black;
+}
+
+.product-card .card-body {
+  display: flex;
+  flex-direction: column; /* Stack the child elements vertically */
+  height: 100%; /* Set height to 100% to take full height of the parent container */
+}
+
+.product-card .btn-primary {
+  margin-top: 3%; /* Push the buttons to the bottom of the card */
+  background-color: black; /* Set the button background color */
+  border: 1px solid black; /* Set the button border color */
+  color: white; /* Set the button text color */;
+}
+
+
+/* Custom CSS for the footer */
+#footer{
+  padding:2% ;
+  text-align: center;
+  font-size: xx-small;
+  color: black;
+}
+
+footer {
+  background-color:black;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-section {
+  margin-bottom: 20px;
+}
+
+.social{
+  padding-left: 10px;
+}
+
+.mx-auto {
+  width: 50%;
+}
+.seach{
+  font-size: 1px;
+}
+
+.padding-top-bottom{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* FEATURES SECTION */
+
+
+#features{
+  background-color: white;
+  position: relative;
+}
+.feature-box{
+  text-align: center;
+  padding: 2% 1%;
+  
+}
+.icon{
+  margin-bottom:1rem;
+  color:  rgba(0, 0, 0, 0.926);
+  
+}
+
+.icon:hover{
+  color:silver ;
+}
+
+.copyright{
+  background-color: white;
+  color: black;
+}
+
+.cursor-pointer{
+  cursor: pointer;
+}
+
+/* LOGIN SECTION */
+
+.container {
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.login-form {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.login-form h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: white; /* Change font color to white */
+}
+
+.login-form input {
+  width: 90%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: white; /* Change font color to white */
+}
+
+.login-form button {
+  width: 40%;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: rgba(69, 87, 90, 0.992);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.login-form Link {
+  text-decoration: none;
+  color: white; /* Change font color to white */
+  display: block;
+}
+
+
+/* SELL SECTION */
+
+#categories {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.category-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 10px;
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.category:hover{
+    background-color: black;
+    color: white;
+}
+
+.category img {
+    max-width: 80px;
+    height: auto;
+}
+
+.category p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+#categories {
+    background-color: #f0f0f0;
+    color: black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.categories-details{
+    background-color: black;
+    color: white;
+}
+
+#category-content{
+    padding: 20px 20%;
+}
+.category-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.category, .product {
+    flex: 1;
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.category img, .product img {
+    max-width: 80px;
+    height: auto;
+}
+
+.category p, .product p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+/* Style for brand and product sections */
+#brands, #products, #product-details {
+    background-color: #f9f9f9;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#brands h2, #products h2, #product-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Style for input fields and labels */
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+   
+}
+
+input[type="text"], input[type="number"], input[type="checkbox"] {
+    width: 70%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Style for the "Select a category/brand/product" default text */
+#brand-content p, #product-content p, #product-details p {
+    font-style: italic;
+}
+
+.button-container {
+    width: 100%; /* Set the width as needed */
+    text-align: center;
+    
+}
+
+#buttonsubmit {
+    margin: 0 auto; /* Set the left and right margin to "auto" */
+    display: block; /* Ensures the button is a block-level element */
+    
+}
+
+.love:hover{
+color: red;
+}
+
+.smile:hover{
+color: rgba(232, 228, 16, 0.649);
+}
+
+.correct:hover{
+  color: green;
+}
+
+
+/* NOTIFICATION SECTION */
+
+.notification-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+}
+
+.notification {
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center;
+}
+
+.close-btn {
+  margin-left: 10px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+/* CART SECTION */
+
+
+#cart {
+  padding: 20px;
+}
+
+.cart-item {
+  border-bottom: 1px solid #ccc;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart-item img {
+  max-width: 100px;
+  margin-right: 10px;
+}
+
+#total {
+  text-align: center;
+}
+
+.product-section {
+  padding: 5% 5% 5% 5%;
+}
+
+
+/* buying section */
+
+
+#buyFormContainer {
+  /* display: none; */
+  background-color: black;
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#buyFormContainer h3 {
+  color: limegreen;
+}
+
+#buyForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#buyForm label {
+  margin-bottom: 10px;
+}
+
+#buyForm input,
+#buyForm select {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+}
+
+#buyForm button {
+  width: 100%;
+  background-color: limegreen;
+  color: black;
+  padding: 10px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+#buyForm button:hover {
+  background-color: rgb(10, 164, 10);
+}
+
+/* product-details section */
+
+.product-info {
+  float: middle;
+  width: 90%;
+  padding: 10%;
+}
+
+.product-info-div{
+  background-color: black;
+  color: white;
+}
+.product-images{
+  float: middle;
+  width: 80%;
+  height: 80%;
+  size: fixed;
+  image-rendering: auto;
+}
+
+.price {
+  font-size: 24px;
+  color: green;
+}
+
+.buttons button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color:rgb(255, 255, 255);
+  color: #000000;
+  border: none;
+  cursor: pointer;
+}
+.buttons button:hover {
+  background-color:green;
+  color: white;
+}
+
+.product-description {
+  clear: both;
+  padding: 20px;
+}
+
+
